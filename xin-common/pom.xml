@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.xin</groupId>
+        <artifactId>xin</artifactId>
+        <version>3.6.4</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>xin-common-log</module>
+        <module>xin-common-core</module>
+        <module>xin-common-redis</module>
+        <module>xin-common-seata</module>
+        <module>xin-common-swagger</module>
+        <module>xin-common-security</module>
+        <module>xin-common-sensitive</module>
+        <module>xin-common-datascope</module>
+        <module>xin-common-datasource</module>
+    </modules>
+
+    <artifactId>xin-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        xin-common通用模块
+    </description>
+
+</project>

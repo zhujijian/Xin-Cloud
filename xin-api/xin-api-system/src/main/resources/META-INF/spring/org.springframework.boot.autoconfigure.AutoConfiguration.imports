@@ -1,0 +1,3 @@
+com.xin.system.api.factory.RemoteUserFallbackFactory
+com.xin.system.api.factory.RemoteLogFallbackFactory
+com.xin.system.api.factory.RemoteFileFallbackFactory
